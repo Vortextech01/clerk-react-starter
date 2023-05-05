@@ -29,11 +29,11 @@ header button {
 }
 
 header .sign-up-btn {
-  border: 1px solid #61dafb;
-  color: #61dafb;
+  border: 1px solid #110580;
+  color: #f5fdff;
 }
 
 header .sign-in-btn {
-  background: #61dafb;
-  color: #282c34;
+  background: #000000;
+  color: #e5eaf3;
 }

@@ -4,6 +4,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  background: linear-gradient(135deg, rgba(32, 47, 66, 1) 0%, rgba(45, 67, 98, 1) 100%);
 }
 
 header ul {
@@ -26,6 +27,8 @@ header button {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
 }
 
 header .sign-up-btn {
@@ -36,4 +39,17 @@ header .sign-up-btn {
 header .sign-in-btn {
   background: #000000;
   color: #e5eaf3;
+}
+
+header button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .sign-up-btn:hover {
+  background-color: rgba(173, 172, 177, 0.1);
+}
+
+header .sign-in-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }

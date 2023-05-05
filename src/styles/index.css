@@ -4,10 +4,16 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #000000;
+  background: linear-gradient(135deg, rgba(32, 47, 66, 1) 0%, rgba(45, 67, 98, 1) 100%);
   min-height: 100vh;
+  color: #e5eaf3;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffcc00;
+  padding: 0.2em 0.4em;
+  margin: 0;
+  border-radius: 4px;
 }
